@@ -8,7 +8,17 @@ function submitBirth(){
 
 function loadToday(){
     const today = new Date()
-    var year = today.getFullYear()
-    var month = today.getMonth()
-    var day = today.getDate()
+    var ty = today.getFullYear()
+    var tm = today.getMonth()
+    var td = today.getDate()
+    convert()
+}
+
+function convert(){
+    age = ty - y
+    if(m == tm){
+        if(d == td){
+            age = age + 1
+        }
+    }
 }
