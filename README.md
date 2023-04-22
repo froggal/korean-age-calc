@@ -1,2 +1,3 @@
 # korean-age-convertor
-Conversion a Korean age to global age.
+
+For use: https://ko-age-conv.netlify.app
