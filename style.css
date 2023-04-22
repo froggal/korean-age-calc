@@ -1,3 +1,5 @@
+@import url(fonts.css);
+
 /* dark mode */
 @media (prefers-color-scheme: light) {
     body {
@@ -12,3 +14,17 @@
         color: white;
     }
 }
+
+body {
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+}
+
+.header {
+    font-size: 250%;
+}
+
+.app {
+    font-size: 250%;
+}
+
