@@ -7,7 +7,6 @@
     <title>만 나이 변환기</title>
 </head>
 <body>
-    <script src="app.js"></script>
     <div class="header">
         <h1>만 나이 변환기</h1>
         <h2>생일을 넣으면 만 나이로 변환해줍니다.</h2>
@@ -17,10 +16,11 @@
         <input type="date" name="birthday" id="birthday">
         <input type="submit" value="제출" id="submit" onclick="submitBirth()">
         <p>변환 결과</p>
-        <p ></p>
+        <p id="converted"></p>
     </div>
     <div class="footer">
         © kpj 2023, All rights reserved. <br /> Made with 💜
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
