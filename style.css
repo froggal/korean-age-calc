@@ -28,3 +28,9 @@ body {
     font-size: 250%;
 }
 
+input {
+    width: 50%;
+    height: 40%;
+    font-size: 70%;
+    text-align: center;
+}
