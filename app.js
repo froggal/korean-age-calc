@@ -8,11 +8,9 @@ function submitBirth(){
     var tm = today.getMonth()
     var td = today.getDate()
     
-    age = ty - y
-    if(m == tm){
-        if(d == td){
-            age = age + 1
-        }
+    age = ty - y // 2023 - 2011 = 12
+    if(m > tm){
+        age = age - 1
     }
 
     document.getElementById('converted').innerHTML = "만 " + age + " 세"
